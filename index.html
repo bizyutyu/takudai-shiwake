@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<title>
+宅配料金計算
+</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<h1>宅配料金計算</h1>
+
+<p>
+  宅配便の配送料金を計算する。荷物のサイズと料金は表の通り。
+</p>
+
+<p>
+※値は半角で入力してください
+</p>
+
+
+<p>
+<form action="pricecal.php" method="post">
+<input type="text" name="data">
+<input type="submit">
+</form>
+</p>
+
+<!--<p>
+<a href="pricecal.php">入力し直して下さい。</a>
+<a href="index.html">開始画面へ戻る</a>
+</p>-->
+
+<div style="margin:0px; padding:0px;" align="center">
+  <table width="500px" style="border-collapse: collapse; border:1px solid #000000; background-color:#FFFFFF; color:#000000; text-align: left;">
+    <tbody>
+      <tr><th style="border:1px solid #000000;background-color:#CACAFF;text-align:center;">サイズ</th>
+       <th style="border:1px solid #000000;background-color:#CACAFF;text-align:center;">荷物の大きさ</th>
+       <th style="border:1px solid #000000;background-color:#CACAFF;color:#000000;text-align:center;">重さ</th>
+       <th style="border:1px solid #000000;background-color:#CACAFF;color:#000000;text-align:center;">料金</th></tr>
+      <tr><td style="border:1px solid #000000;text-align:center;">60サイズ</td>
+        <td style="border:1px solid #000000;text-align:center;">60cm以内</td>
+        <td style="border:1px solid #000000;text-align:center;">2kgまで</td>
+        <td style="border:1px solid #000000;text-align:center;">1,040円</td></tr>
+      <tr><td style="border:1px solid #000000;text-align:center;">80サイズ</td>
+        <td style="border:1px solid #000000;text-align:center;">80cm以内</td>
+        <td style="border:1px solid #000000;text-align:center;">5kgまで</td>
+        <td style="border:1px solid #000000;text-align:center;">1,260円</td></tr>
+      <tr><td style="border:1px solid #000000;text-align:center;">100サイズ</td>
+        <td style="border:1px solid #000000;text-align:center;">100cm以内</td>
+        <td style="border:1px solid #000000;text-align:center;">10kgまで</td>
+        <td style="border:1px solid #000000;text-align:center;">1,500円</td></tr>
+      <tr><td style="border:1px solid #000000;text-align:center;">120サイズ</td>
+        <td style="border:1px solid #000000;text-align:center;">120cm以内</td>
+        <td style="border:1px solid #000000;text-align:center;">15kgまで</td>
+        <td style="border:1px solid #000000;text-align:center;">1,720円</td></tr>
+      <tr><td style="border:1px solid #000000;text-align:center;">140サイズ</td>
+        <td style="border:1px solid #000000;text-align:center;">140cm以内</td>
+        <td style="border:1px solid #000000;text-align:center;">20kgまで</td>
+        <td style="border:1px solid #000000;text-align:center;">1,960円</td></tr>
+      <tr><td style="border:1px solid #000000;text-align:center;">160サイズ</td>
+        <td style="border:1px solid #000000;text-align:center;">160cm以内</td>
+        <td style="border:1px solid #000000;text-align:center;">25kgまで</td>
+        <td style="border:1px solid #000000;text-align:center;">2,180円</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
